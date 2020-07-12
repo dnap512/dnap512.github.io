@@ -281,4 +281,4 @@ defaults:
       related: true
       
      
- remote_theme : mmistakes/minimal-mistakes
+remote_theme : mmistakes/minimal-mistakes
