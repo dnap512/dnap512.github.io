@@ -1,23 +1,17 @@
 ---
-title: "Hello World!"
+title: "Leetcode : 321"
 date: 2020-07-12 22:08:28 -0400
 categories: jekyll update
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+321번 문제는 2개의 배열에서 K 길이의 가장 큰 수를 만드는 문제이다.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+- 조건 : 각각의 배열에서 숫자를 뽑아낼 때 순서는 유지되어야 한다.
 
-Jekyll also offers powerful support for code snippets:
-
-​```python
-def print_hi(name):
-  print("hello", name)
-print_hi('Tom')
-​```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+#### Example 1:
+Input:
+- nums1 = [3, 4, 6, 5]
+- nums2 = [9, 1, 2, 5, 8, 3]
+- k = 5
+#### Output:
+[9, 8, 6, 5, 3]
