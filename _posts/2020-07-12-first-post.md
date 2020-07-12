@@ -1,7 +1,7 @@
 ---
 title: "Leetcode : 321"
 date: 2020-07-12 22:08:28 -0400
-categories: jekyll update
+categories: leetcode, algorithm
 ---
 
 321번 문제는 2개의 배열에서 K 길이의 가장 큰 수를 만드는 문제이다.
